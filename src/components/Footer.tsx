@@ -9,7 +9,7 @@ const Footer = () => {
     text-center text-sm font-normal leading-6
      text-primary dark:text-white "
       data-aos="fade-up"
-      data-aos-duration="3000"
+      data-aos-duration="2000"
     >
       <span className="max-md:mt-4"> © 2023 </span>
       <div className="flex gap-3.5 max-md:flex-col">

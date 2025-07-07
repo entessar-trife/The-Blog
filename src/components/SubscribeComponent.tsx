@@ -9,7 +9,7 @@ const SubscribeComponent: React.FC<SubscribeComponentProps> = ({ style }) => {
     <div
       className={`flex flex-col items-center w-full ${style}`}
       data-aos="fade-up"
-      data-aos-duration="3000"
+      data-aos-duration="2000"
     >
       <h6 className="text-purple-03 font-semibold leading-6 text-base">
         Newlatters

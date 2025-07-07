@@ -9,7 +9,7 @@ const PostsDetailsSection = () => {
   const openedPost = useSelector(selectOpenPost(postId));
 
   return (
-    <section data-aos="fade-left" data-aos-duration="10000">
+    <section data-aos="fade-left" data-aos-duration="3000">
       {openedPost && (
         <div>
           <span className="text-sm font-semibold leading-5 text-purple-01">
@@ -31,7 +31,7 @@ const PostsDetailsSection = () => {
           </p>
 
           {openedPost.content?.map((content) => (
-            <div data-aos="fade-left" data-aos-duration="3000">
+            <div data-aos="fade-left" data-aos-duration="2000">
               <p
                 className="text-base font-bold leading-6 text-center
                text-gray-01 dark:text-gray-03 

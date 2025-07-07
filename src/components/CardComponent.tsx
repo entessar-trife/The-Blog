@@ -22,7 +22,7 @@ const CardComponent: React.FC<PostsData> = ({
         cardStyle ?? "flex flex-col gap-6"
       } p-2 transition-all duration-500 ease-in-out hover:shadow-lg hover:dark:shadow-[0_0_16px_-5px_gray] hover:p-2 rounded-xl cursor-pointer`}
       data-aos={aos}
-      data-aos-duration="3000"
+      data-aos-duration="2000"
     >
       <img src={mainImg} className={`${mainImgStyle}`} alt="cover image" />
       <div>
