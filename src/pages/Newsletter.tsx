@@ -18,7 +18,7 @@ const Newsletter = () => {
           <div className="flex justify-between items-start gap-8 max-md:flex-wrap ">
             <CardComponent
               key={firstThreePosts[0].id}
-              onClick={() => navigate(`/blog/${firstThreePosts[0].id}`)}
+              onClick={() => navigate(`/task_6_adv/blog/${firstThreePosts[0].id}`)}
               aos="zoom-out-down"
               mainImg={firstThreePosts[0].mainImg}
               mainImgStyle="h-[240px]"
@@ -29,7 +29,7 @@ const Newsletter = () => {
             />
             <CardComponent
               key={firstThreePosts[1].id}
-              onClick={() => navigate(`/blog/${firstThreePosts[1].id}`)}
+              onClick={() => navigate(`/task_6_adv/blog/${firstThreePosts[1].id}`)}
               aos="zoom-out-down"
               cardStyle="flex flex-col gap-6 max-md:w-full"
               mainImg={firstThreePosts[1].mainImg}
@@ -43,7 +43,7 @@ const Newsletter = () => {
           <div className="max-md:w-full">
             <CardComponent
               key={firstThreePosts[2].id}
-              onClick={() => navigate(`/blog/${firstThreePosts[2].id}`)}
+              onClick={() => navigate(`/task_6_adv/blog/${firstThreePosts[2].id}`)}
               aos="zoom-out-down"
               mainImg={firstThreePosts[2].mainImg}
               mainImgStyle="h-[240px]"
