@@ -38,7 +38,7 @@ const ScrollComponent = () => {
     <div>
       <button
         onClick={scrollToTop}
-        className={`fixed right-5 bottom-5
+        className={`fixed right-5 bottom-5 z-50
          bg-dark dark:bg-white 
           w-8 h-8 flex items-center justify-center
         rounded-full cursor-pointer 
@@ -51,7 +51,7 @@ const ScrollComponent = () => {
 
       <button
         onClick={scrollToBottom}
-        className={`fixed bottom-5
+        className={`fixed bottom-5 z-50
          bg-dark dark:bg-white 
           w-8 h-8 flex items-center justify-center
         rounded-full cursor-pointer 
