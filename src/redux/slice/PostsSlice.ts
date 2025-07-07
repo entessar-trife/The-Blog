@@ -51,18 +51,11 @@ export const selectAllPostsWithoutOpenPost = (postId: number) => createSelector(
     [allPosts],
     (posts) => {
         const filtered = posts.filter(post => post.id !== postId);
-        const firstRange = filtered.slice(0, 7);       // 0 إلى 6
-        const secondRange = filtered.slice(16, 21);    // 16 إلى 20
+        const firstRange = filtered.slice(0, 5);
+        const secondRange = filtered.slice(15, 20);
         return [...firstRange, ...secondRange];
     }
 );
-
-// export const selectAllPostsWithoutOpenPost = (postId: number) => createSelector(
-//     [allPosts],
-//     (post) => post
-//         .filter(post => post.id !== postId)
-//         .slice(0, 9)
-// )
 
 // selector for select open post 
 export const selectOpenPost = (postId: number) => createSelector(
