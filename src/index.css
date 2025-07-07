@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+* {
+  font-family: "Inter";
+}
+
+@theme {
+  --color-primary: #1A1A1A;
+  --color-dark   : #090D1F;
+
+  --color-gray-01: #667085;
+  --color-gray-02: #00000057;
+  --color-gray-03: #C0C5D0;
+  --color-gray-04: #D0D5DD;
+  --color-gray-05: #363F72;
+  --color-gray-06: #F8F9FC;
+  --color-gray-07: #EAECF0;
+  --color-gray-08: #EFEFEF;
+  --color-gray-09: #EAECF057;
+
+  --color-purple-01: #6941C6;
+  --color-purple-02: #F9F5FF;
+  --color-purple-03: #7F56D9;
+
+  --color-blue-01: #3538CD;
+  --color-blue-02: #EEF4FF;
+  --color-blue-03: #026AA2;
+  --color-blue-04: #F0F9FF;
+
+  --color-pink-01: #C11574;
+  --color-pink-02: #FDF2FA;
+
+  --color-green-01: #027A48;
+  --color-green-02: #ECFDF3;
+
+  --color-red-01: #C4320A;
+  --color-red-02: #FFF6ED;
+}
+
+.loader-animation {
+  animation: typing 3s infinite
+}
+
+
+@keyframes typing {
+  0% {
+    width: 0;
+  }
+
+  50% {
+    width: 300px;
+  }
+
+  100% {
+    width: 0;
+  }
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.animate-gradient {
+  background-size: 200% 200%;
+  animation      : gradient 6s ease infinite;
+}
