@@ -3,13 +3,17 @@ import { NavLink } from "react-router-dom";
 import ToggleModeComponent from "../ToggleModeComponent";
 import type React from "react";
 
-interface style {
+interface NavbarLinksProps {
   menuStyle: string;
   className?: string;
   onClick?: () => void;
 }
 
-const NavbarLinks: React.FC<style> = ({ menuStyle, className, onClick }) => {
+const NavbarLinks: React.FC<NavbarLinksProps> = ({
+  menuStyle,
+  className,
+  onClick,
+}) => {
   return (
     <div className={`${className}`}>
       <ul className={menuStyle}>

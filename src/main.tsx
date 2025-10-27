@@ -12,7 +12,7 @@ import store from "./redux/store/index.ts";
 
 const routes = createBrowserRouter([
   {
-    path: "/task_6_adv",
+    path: "/The-Blog",
     element: <App />,
     children: [
       {

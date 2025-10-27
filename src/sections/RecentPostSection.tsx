@@ -14,7 +14,7 @@ const RecentPostSection = () => {
       <div className="flex max-lg:flex-wrap gap-8 mt-8">
         <CardComponent
           key={latestFourPosts[0].id}
-          onClick={() => navigate(`/task_6_adv/blog/${latestFourPosts[0].id}`)}
+          onClick={() => navigate(`/The-Blog/blog/${latestFourPosts[0].id}`)}
           cardStyle="flex flex-col flex-wrap gap-8 w-full xl:w-[48.7%]"
           aos="fade-right"
           mainImg={latestFourPosts[0].mainImg}
@@ -26,7 +26,7 @@ const RecentPostSection = () => {
         <div className="flex flex-col flex-wrap gap-8 w-full xl:w-[48.7%]">
           <CardComponent
             key={latestFourPosts[1].id}
-            onClick={() => navigate(`/task_6_adv/blog/${latestFourPosts[1].id}`)}
+            onClick={() => navigate(`/The-Blog/blog/${latestFourPosts[1].id}`)}
             aos="fade-left"
             cardStyle="flex gap-6 flex-wrap md:flex-nowrap"
             mainImg={latestFourPosts[1].mainImg}
@@ -39,7 +39,7 @@ const RecentPostSection = () => {
           />
           <CardComponent
             key={latestFourPosts[2].id}
-            onClick={() => navigate(`/task_6_adv/blog/${latestFourPosts[2].id}`)}
+            onClick={() => navigate(`/The-Blog/blog/${latestFourPosts[2].id}`)}
             aos="fade-left"
             cardStyle="flex gap-6 flex-wrap md:flex-nowrap"
             mainImg={latestFourPosts[2].mainImg}
@@ -54,7 +54,7 @@ const RecentPostSection = () => {
       </div>
       <CardComponent
         key={latestFourPosts[3].id}
-        onClick={() => navigate(`/task_6_adv/blog/${latestFourPosts[3].id}`)}
+        onClick={() => navigate(`/The-Blog/blog/${latestFourPosts[3].id}`)}
         cardStyle="flex flex-wrap lg:flex-nowrap gap-6 mt-15"
         aos="fade-right"
         mainImg={latestFourPosts[3].mainImg}

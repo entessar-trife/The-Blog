@@ -33,7 +33,7 @@ const AllPostsSection = () => {
           <CardComponent
             key={post.id}
             cardStyle={post.cardStyle}
-            onClick={() => navigate(`/task_6_adv/blog/${post.id}`)}
+            onClick={() => navigate(`/The-Blog/blog/${post.id}`)}
             aos="zoom-out-down"
             mainImg={post.mainImg}
             date={post.date}

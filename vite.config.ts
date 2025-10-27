@@ -7,7 +7,7 @@ export default defineConfig({
   plugins: [react(),
     tailwindcss(),
   ],
-  base:"/task_6_adv"
+  base:"/The-Blog"
 })
 
 

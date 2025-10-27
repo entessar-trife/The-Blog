@@ -30,7 +30,7 @@ const NavBar = () => {
       >
         <div className="flex justify-between items-center">
           <h1 className="text-lg md:text-xl leading-6 text-primary dark:text-white font-semibold">
-            <Link to="/task_6_adv">Entessar Trife</Link>
+           Entessar Trife
           </h1>
 
           <NavbarLinks
@@ -55,7 +55,7 @@ const NavBar = () => {
         }`}
       >
         <h1 className="text-lg md:text-xl leading-6 text-primary dark:text-white font-semibold mb-[54px]">
-          <Link to="/task_6_adv" onClick={() => setShowMenu(false)}>
+          <Link to="/The-Blog" onClick={() => setShowMenu(false)}>
             Entessar Trife
           </Link>
         </h1>

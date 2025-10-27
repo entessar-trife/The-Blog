@@ -33,7 +33,7 @@ const Blog = () => {
             <CardComponent
               key={post.id}
               title={post.title}
-              onClick={() => navigate(`/task_6_adv/blog/${post.id}`)}
+              onClick={() => navigate(`/The-Blog/blog/${post.id}`)}
               mainImg={post.mainImg}
               date={post.date}
               desc_1={post.desc_1}
